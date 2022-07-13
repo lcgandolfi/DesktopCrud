@@ -271,7 +271,7 @@ public class Menu extends JFrame {
 		});
 		mnVendas.add(mntmNovaVenda);
 
-		JMenuItem mntmRelatorio = new JMenuItem("Relat√≥rio");
+		JMenuItem mntmRelatorio = new JMenuItem("RelatÛrio");
 		mntmRelatorio.setBorder(new LineBorder(Color.GRAY, 1));
 		mntmRelatorio.setBackground(Color.WHITE);
 		mntmRelatorio.setIcon(new ImageIcon(Menu.class.getResource("/icons/espaco.png")));
@@ -324,7 +324,7 @@ public class Menu extends JFrame {
 		menuSpace3.setEnabled(false);
 		menuBar.add(menuSpace3);
 
-		JMenu mnUsuario = new JMenu("Usu√°rio");
+		JMenu mnUsuario = new JMenu("Usu·rio");
 		mnUsuario.setBorder(new LineBorder(Color.LIGHT_GRAY, 2));
 		mnUsuario.setBackground(Color.LIGHT_GRAY);
 		mnUsuario.setIcon(new ImageIcon(Menu.class.getResource("/icons/network.png")));

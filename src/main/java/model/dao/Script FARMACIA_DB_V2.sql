@@ -259,7 +259,7 @@ INSERT INTO `farmacia_db`.`produto`(`COD_BARRA`,`NM_PRODUTO`,`DT_CADASTRO`,`PREC
 VALUES(4800123410114, 'Condicionador Palmolive', NOW(), 13.90, 4.90, 15 ,1);
 
 INSERT INTO `farmacia_db`.`remedio` (`COD_BARRA`,`DOSAGEM`,`COMPOSICAO`,`GENERICO`,`NM_REMEDIO`,`DT_CADASTRO`,`PRECO`, `PRECO_CUSTO`,`ESTOQUE`,`ID_FORMA_USO`,`ID_LABORATORIO`)
-VALUES( 310012340122, '100mg','Metamizol', 1, 'Dipirona SÃ³dica', NOW(), 24.90, 13.25, 30, 1, 1);
+VALUES( 310012340122, '100mg','Metamizol', 1, 'Dipirona Sádica', NOW(), 24.90, 13.25, 30, 1, 1);
 
 INSERT INTO `farmacia_db`.`remedio` (`COD_BARRA`,`DOSAGEM`,`COMPOSICAO`,`GENERICO`,`NM_REMEDIO`,`DT_CADASTRO`,`PRECO`, `PRECO_CUSTO`,`ESTOQUE`,`ID_FORMA_USO`,`ID_LABORATORIO`)
 VALUES( 310012340130, '200mg','Panadol', 0, 'Paracetamol', NOW(), 29.90, 16.75, 19, 1, 2);
@@ -284,10 +284,10 @@ INSERT INTO `farmacia_db`.`usuario`(`NOME`,`DT_CADASTRO`,`LOGIN`,`SENHA`,`ID_NIV
 VALUES('teste',NOW(),'teste','teste',2);
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
-VALUES('DÃ©bito');
+VALUES('Débito');
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
-VALUES('CrÃ©dito');
+VALUES('Crédito');
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
 VALUES('Dinheiro');

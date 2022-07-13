@@ -259,16 +259,16 @@ INSERT INTO `farmacia_db`.`produto`(`COD_BARRA`,`NM_PRODUTO`,`DT_CADASTRO`,`PREC
 VALUES(4800123410114, 'Condicionador Palmolive', NOW(), 13.90, 4.90, 15 ,1);
 
 INSERT INTO `farmacia_db`.`remedio` (`COD_BARRA`,`DOSAGEM`,`COMPOSICAO`,`GENERICO`,`NM_REMEDIO`,`DT_CADASTRO`,`PRECO`, `PRECO_CUSTO`,`ESTOQUE`,`ID_FORMA_USO`,`ID_LABORATORIO`)
-VALUES( 310012340122, '100mg','Metamizol', 1, 'Dipirona S√≥dica', NOW(), 24.90, 13.25, 30, 1, 1);
+VALUES( 310012340122, '100mg','Metamizol', 1, 'Dipirona S·dica', NOW(), 24.90, 13.25, 30, 1, 1);
 
 INSERT INTO `farmacia_db`.`remedio` (`COD_BARRA`,`DOSAGEM`,`COMPOSICAO`,`GENERICO`,`NM_REMEDIO`,`DT_CADASTRO`,`PRECO`, `PRECO_CUSTO`,`ESTOQUE`,`ID_FORMA_USO`,`ID_LABORATORIO`)
 VALUES( 310012340130, '200mg','Panadol', 0, 'Paracetamol', NOW(), 29.90, 16.75, 19, 1, 2);
 
 INSERT INTO `farmacia_db`.`endereco`(`CEP`,`RUA`,`NUMERO`,`COMPLEMENTO`,`BAIRRO`,`CIDADE`,`UF`)
-VALUES('88045543','Servid√£o clodomiro vicente da silva',80,'teste','Saco dos limoes','Florianopolis','SC');
+VALUES('88103250','rua de rua',80,'teste','centro','Palhoca','SC');
 
 INSERT INTO `farmacia_db`.`cliente` (`CPF`,`NOME`,`DT_NASC`,`DT_CADASTRO`,`ID_ENDERECO`)
-VALUES ('12674947942','Leonardo Vieira','2000-11-20',NOW(),1);
+VALUES ('12674947942','Lucas','2022-07-12',NOW(),1);
 
 INSERT INTO `farmacia_db`.`nivel`(`DESCRICAO`)
 VALUES('ADMIN');
@@ -284,10 +284,10 @@ INSERT INTO `farmacia_db`.`usuario`(`NOME`,`DT_CADASTRO`,`LOGIN`,`SENHA`,`ID_NIV
 VALUES('teste',NOW(),'teste','teste',2);
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
-VALUES('D√©bito');
+VALUES('DÈbito');
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
-VALUES('Cr√©dito');
+VALUES('CrÈdito');
 
 INSERT INTO `farmacia_db`.`forma_pgto`(`DESCRICAO`)
 VALUES('Dinheiro');
